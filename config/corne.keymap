@@ -32,7 +32,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp PLUS   &kp LBRC   &kp RBRC &kp PIPE    &kp PIPE &kp BSPC
+   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp PLUS   &kp PLUS   &kp LBRC   &kp RBRC    &kp PIPE &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5   &kp EQUAL &kp LPAR  &kp RPAR &kp BSLH &kp RET
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans  &kp LBKT &kp RBKT &trans &trans
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
