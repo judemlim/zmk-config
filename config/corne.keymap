@@ -31,7 +31,7 @@
    &kp TAB   &kp SQT &kp COMMA &kp DOT &kp P &kp Y   &kp F &kp G  &kp C     &kp R   &kp L    &kp FSLH
    &mt LCTRL ESC &kp A &kp O &kp E &kp U &kp I   &kp D &kp H  &kp T     &kp N   &kp S &kp MINUS
    &kp LSHFT &lt 3 SEMI &kp Q &kp J &kp K &kp X   &kp B &kp M  &kp W &kp V &kp Z &kp RSHFT
-                  &kp LGUI &kp SPACE &mt LCTRL RET   &lt 1 BKSP  &lt 2 TAB  &kp RALT
+                  &kp LGUI &kp SPACE &mt LALT RET   &lt 1 BKSP  &lt 2 TAB  &kp RCTRL
                         >;
                 };
                 lower_layer {
@@ -41,7 +41,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp PLUS   &kp PLUS   &kp LBRC   &kp RBRC    &kp PIPE &kp BSPC
+   &kp TAB    &out OUT_USB   &out OUT_BLE   &kp N3       &kp N4       &kp N5         &kp PLUS   &kp PLUS   &kp LBRC   &kp RBRC    &kp PIPE &kp BSPC
    &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5   &kp EQUAL &kp LPAR  &kp RPAR &kp BSLH &kp RET
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans  &kp LBKT &kp RBKT &trans &trans
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &bt BT_CLR 
@@ -70,8 +70,8 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  TILDE  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &kp F6 &kp F7  &kp F8 &kp F9 &kp F10 &kp BKSP
-   &kp GRAVE &kp N1   &kp LC(X) &kp LC(C)   &kp LC(V)   &kp N5      &kp N6 &kp N7 &kp N8        &kp N0 &kp F11 &kp RET
-   &kp LSHFT &trans   &kp HOME &out OUT_USB   &out OUT_BLE   &trans      &trans &kp LEFT &kp C_VOL_DN &kp C_VOL_UP  &kp F12 &trans
+   &kp GRAVE &kp N1   &kp LG(X) &kp LG(C)   &kp LG(V)   &kp LG(B)      &kp N6 &kp N7 &kp N8        &kp N0 &kp F11 &kp RET
+   &kp LSHFT &trans   &kp LC(X) &kp LC(C)   &kp LC(V)   &kp LC(B)      &trans &kp LEFT &kp C_VOL_DN &kp C_VOL_UP  &kp F12 &trans
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
