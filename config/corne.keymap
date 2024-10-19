@@ -69,7 +69,7 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TILDE  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &kp F6 &kp F7  &kp F8 &kp F9 &kp F10 &kp BKSP
+   &soft_off  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &kp F6 &kp F7  &kp F8 &kp F9 &kp F10 &kp BKSP
    &kp GRAVE &kp N1   &kp LG(X) &kp LG(C)   &kp LG(V)   &kp LG(B)      &kp N6 &kp N7 &kp N8        &kp N0 &kp F11 &kp RET
    &kp LSHFT &trans   &kp LC(X) &kp LC(C)   &kp LC(V)   &kp LC(B)      &trans &kp LEFT &kp C_VOL_DN &kp C_VOL_UP  &kp F12 &trans
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
